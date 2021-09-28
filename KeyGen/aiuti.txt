@@ -1,0 +1,12 @@
+Apri un terminale
+Naviga nella cartella dove si trova la sfida con 'cd'
+il comando da eseguire è: .\18.exe <qui la tua chiave>
+
+Come si trova la chiave??
+la chiave deve avere una lunghuezza in ascii di 2037
+basta cambiare poco il file python(fuzza18)
+python fuzza18.py e sei pronto a trovare la chiave
+
+Come faccio a sapere se ho trovato la flag??
+Il programma te la sputa con la giusta flag
+la flag è del formato 18{...}
