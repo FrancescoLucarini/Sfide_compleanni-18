@@ -16,6 +16,6 @@ while True:
 		key = ""
 	elif s==2:             #Errore
 		print("Found valid key: {0}".format(key))
-                file = open('risultati.txt', 'wb')
-                file.write(key)
-                file.close
+file = open('risultati.txt', 'wb')
+file.write(key)
+file.close()
